@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes loading{
+            
+            100%{
+                width: 100%;
+                background-image: url("https://cdn.pixabay.com/photo/2016/08/21/18/48/emoticon-1610518_640.png");
+                background-attachment: fixed;
+                background-size: cover;
+                
+
+            }
+        }
+        @keyframes image{
+            0%{
+                background-image: url("https://tse2.mm.bing.net/th?id=OIP.XjbUnW1-KqQI8_W1Rq8rTgHaE0&pid=Api&P=0&h=180");
+                background-size: cover;
+            }
+            100%{
+                background-image: url("https://i.pinimg.com/originals/d8/20/95/d8209588924377a85965e305401e924d.jpg");
+                background-size: cover;
+               
+            }
+        }
+        #one{
+            background-color: blueviolet;
+            width: 0%;
+            height: 100px;
+            animation-name: loading;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+
+        }
+       #two{
+            animation-name: image;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            height: 400px;
+            width: 400px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="one"> <font style="font-size: xx-large;"><center>wellcome </center></font>
+        <font style="font-size: xx-large;"><center>Boyz</center></font>
+    </div>
+    <div id="two">
+
+    </div>
+</body>
+</html>
